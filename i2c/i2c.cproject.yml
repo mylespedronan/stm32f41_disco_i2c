@@ -1,0 +1,28 @@
+# A project translates into one executable or library.
+project:
+
+  groups:
+    - group: Source Files
+      files:
+        - file: ./main.c
+        - file: README.md
+        - file: src/gpio.c
+        - file: src/timer.c
+        - file: src/i2c_driver.c
+        - file: src/ssd1306_fonts.c
+        - file: src/ssd1306_driver.c
+        - file: src\ssd1306_imgs.c
+    - group: Include Files
+      files:
+        - file: inc/gpio.h
+        - file: inc/timer.h
+        - file: inc/i2c_driver.h
+        - file: inc/ssd1306_fonts.h
+        - file: inc/ssd1306_driver.h
+        - file: inc\ssd1306_imgs.h
+
+  # List components to use for your application.
+  # A software component is a re-usable unit that may be configurable.
+  components:
+    - component: ARM::CMSIS:CORE
+    - component: Device:Startup

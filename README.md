@@ -5,17 +5,17 @@ the HAL library. The purpose of this project was to gain a better understanding 
 
 ## Setup
 
-This repo needs the following extensions in order to convert a Keil uVision project to a CMSIS solution (csolution project). More details on setup can be found from ARM's guide listed below.
+This repo needs the following extensions in order to convert a Keil uVision project to a CMSIS solution (csolution project)[^1]. More details on setup can be found from ARM's guide listed below.
 
 VS Code Extensions:
-- Arm Keil Studio Pack [^1]
+- Arm Keil Studio Pack
 - Arm CMSIS csolution
 - Arm Debugger
 - Arm Device Manager
 - Arm Environment Manager
 - ASM Virtual Hardware
 
-[^1] : [ARM Keil Studio Visual Studio Code Extensions User Guide](https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-project)
+[^1]: [ARM Keil Studio Visual Studio Code Extensions User Guide](https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-project)
 
 With these extensions and the csolution created, a Keil like project can be created in VS Code. VS Code will need to create the following files in order to debug:
 

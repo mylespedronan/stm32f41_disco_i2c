@@ -5,7 +5,6 @@ project:
     - group: Source Files
       files:
         - file: ./main.c
-        - file: README.md
         - file: src/gpio.c
         - file: src/timer.c
         - file: src/i2c_driver.c
